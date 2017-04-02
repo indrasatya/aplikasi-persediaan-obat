@@ -1,0 +1,27 @@
+Aplikasi Persediaan Obat pada Apotek
+==========================================================================================================================================
+
+Bahasa Pemrograman 	: PHP v.7.0.13
+Database 		: MySQL
+Extension		: MySQLi Extension
+CSS Framework 		: Bootstrap 
+Template		: AdminLTE v.2.0.4
+Report			: html2pdf_v4.03
+Tools			: - Sublime, 
+			  - XAMPP 7.0.13
+
+==========================================================================================================================================
+
+PETUNJUK PENGGUNAAN
+
+1. Install XAMPP, Download disini https://www.apachefriends.org
+2. Setelah XAMPP terinstall, buka Xampp Control Panel lalu Start Apache dan MySQL.
+3. Download Aplikasi Persediaan Obat dari github (https://github.com/indrasatya/aplikasi-persediaan-obat), lalu extract file dan ubah nama folder menjadi Aplikasi-Persediaan-Obat. 
+4. Kemudian copy folder Aplikasi-Persediaan-Obat dan paste ke folder ..\xampp\htdocs. 
+5. Kemudian buka browser dan masuk ke localhost/phpmyadmin, buat database baru dengan nama i_persediaan_obat.
+6. Import file i_persediaan_obat.sql yang ada difolder Database ke dalam database yang telah dibuat.
+7. Setting koneksi pada file database.php yang ada pada folrder config (sesuaikan dengan pengaturan server di komputer/laptop Anda)
+8. Untuk membuka program ketikan localhost/Aplikasi-Persediaan-Obat.
+9. Login user : Hak akses Super Admin 	: username indrasatya, password indrasatya
+		Hak akses Super Gudang 	: username danang, password 123
+		Hak akses Super Manajer : username kadina, password 123

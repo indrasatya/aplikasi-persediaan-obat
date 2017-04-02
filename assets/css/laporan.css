@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logo{
+	height: 120px;
+	margin-bottom: 50px;
+	width: 100%;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+#title{
+	float: none;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #000;
+	margin-bottom: 4px;
+	font-size: 12pt;
+	text-decoration: none;
+	text-align: center;
+}
+
+#title-tanggal{
+	float: none;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #000;
+	margin-bottom: 10px;
+	font-size: 10pt;
+	text-decoration: none;
+	text-align: center;
+}
+
+#isi{
+	font-size: 9pt;
+}
+
+#isi-table{
+	padding: 0 0 0 3px;
+}
+
+.tr-title{
+	font-size: 9pt;
+	font-weight: bold;
+	color: #000;
+	background-color: #CCC;
+}
+
+#footer-tanggal{
+	color: #000;
+	margin-top: 40px;
+	margin-left: 450px;
+	font-size: 10pt;
+}
+
+#footer-jabatan{
+	color: #000;
+	font-size: 10pt;
+	margin-left: 450px;
+	margin-bottom: 70px;
+}
+
+#footer-nama{
+	color: #000;
+	font-size: 10pt;
+	margin-left: 450px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	text-align: center;
+}
